@@ -5,6 +5,17 @@ Webpack is a great tool but it takes a lot time to learn about. Since I need to 
 
 Here, I provide a simple react + webpack scaffold for my furture react project. If you need such a scaffold, use it! My pleasure :)
 
+## Supports
+- [x] react
+- [x] jsx
+- [x] es2015
+- [x] cssloader
+- [x] scssloader
+- [x] eslint
+- [x] jshint
+- [x] stylelint
+- [x] csslint
+
 ## Usage
 Clone or download this project and merge it to your project root folder. Run this command to install.
 
