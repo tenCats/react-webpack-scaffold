@@ -1,1 +1,4 @@
-module.exports = () => {alert('hello, react!')}
+import App from './src/Message';
+
+
+export default App;
