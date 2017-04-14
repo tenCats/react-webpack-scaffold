@@ -6,7 +6,6 @@ Webpack is a great tool but it takes a lot time to learn about. Since I need to 
 Here, I provide a simple react + webpack scaffold for my furture react project. If you need such a scaffold, use it! My pleasure :)
 
 ## Usage
----
 Clone or download this project and merge it to your project root folder. Run this command to install.
 
 ```node.js
@@ -28,10 +27,8 @@ npm run build
 ```
 
 ## Files
----
 My js entry is ```./index.js```. Webpack will pack and compile this file into a ```bundle.js``` and put it under ```./dist/```. In ```./dist/``` I alse have a ```index.html``` which requires the ```bundle.js``` and displaces my react component.
 You can change webpack's configuration in ```./webpack.config.js``` which specifies the files to compile and where the bundles go.
 
 ## Notice
----
 My react version is ```^15.3.2``` and react-dom version is ```^15.3.2```. Change it to your need.
