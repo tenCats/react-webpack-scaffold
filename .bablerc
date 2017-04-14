@@ -1,0 +1,25 @@
+// {
+//   "presets": [
+//     ["es2015", {"modules": false}],
+//     // webpack understands the native import syntax, and uses it for tree shaking
+
+//     "react"
+//     // Transpile React components to JavaScript
+//   ],
+//   "plugins": [
+//     "react-hot-loader/babel"
+//     // Enables React code to work with HMR.
+//   ]
+// }
+{
+    "presets": [
+        "jscript",
+        "react", ["es2015", {"loose": true}],
+        "stage-0"
+    ],
+    "plugins": [
+        "react-hot-loader/babel",
+        // Enables React code to work with HMR.
+        "transform-class-properties"
+    ]
+}

@@ -1,3 +1,4 @@
+/* eslint-disable */
 const { resolve } = require('path');
 const webpack = require('webpack');
 
@@ -55,6 +56,10 @@ module.exports = {
         test: /\.css$/,
         use: [ 'style-loader', 'css-loader?modules', ],
       },
+      {
+        test: /\.scss$/,
+        loader: ['style-loader', 'css-loader', 'sass-loader'],
+      }
     ],
   },
 

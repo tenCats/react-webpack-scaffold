@@ -1,0 +1,14 @@
+{
+  "curly": true,
+  "latedef": true,
+  "quotmark": true,
+  "undef": true,
+  "unused": true,
+  "trailing": true,
+  "camelcase": false,
+  "immed": true,
+  "indent": 4,
+
+  "expr": true,
+  "lastsemic": true
+}
